@@ -1,0 +1,17 @@
+{% extends "shizuka_webserver/base.html" %}
+{% block content %}
+<h1> {{ client.identifier }}</h1>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p> {% endif %}
+<ul>
+{% for monitor_inst in client.monitoringinstance_set.all %}
+    <li><a href ={% url 'client:resource' client.pk monitor_inst.pk %}>{{ monitor_inst.monitor.name }}</a></li>
+{% empty %}
+    <p>No monitors appear to be configured for this client. </p>
+    <a href={% url 'client:configure' client.id %}>Configure {{ client.identifier }}</a>
+{% endfor %}
+</ul>
+
+
+</form>
+{% endblock %}

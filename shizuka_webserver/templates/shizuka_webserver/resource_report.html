@@ -1,0 +1,11 @@
+{% if monitoringinstance.report_set.count < 1 %}
+    <h1>No reports yet for this monitor.</h1>
+{% else %}
+<ul>
+    {% for report in monitoringinstance.report_set.all %}
+    <li>
+        {{ report.value }} returned at {{ report.timestamp }}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}

@@ -1,0 +1,6 @@
+Django==1.6.5
+Pyro4==4.25
+South==0.8.4
+doxypy==0.4.2
+psutil==2.1.1
+serpent==1.5

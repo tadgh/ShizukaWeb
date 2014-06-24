@@ -1,0 +1,29 @@
+{% extends "shizuka_webserver/base.html" %}
+{% block content %}
+    {%  if recent_client_list %}
+    <h1>Clients</h1>
+    <!--<ul class="list-group">-->
+    <table class="table">
+        {% for client in recent_client_list %}
+        <tr>
+            <td><a href="{% url 'client:detail' client.id %}">{{ client.identifier }}</a></td>
+            {% if client.is_online %} <td class="success"> Online </td>
+            {% else %}                <td class="danger"> Offline </td>
+            {% endif %}
+        </tr>
+        {%  endfor %}
+    </table>
+    <!--</ul>-->
+    {% else %}
+        <p>No clients have checked in recently.</p>
+    {% endif %}
+
+{% endblock %}
+
+
+<!-- {% if client.is_online %}
+                <li class="list-group-item list-group-item-success">
+            {% else %}
+                <li class="list-group-item list-group-item-danger">
+            {% endif %}
+            -->

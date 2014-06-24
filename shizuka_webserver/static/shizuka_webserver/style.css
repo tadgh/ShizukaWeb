@@ -1,0 +1,9 @@
+.online a {
+    background-color: #008000;
+}
+
+.offline  a {
+    background-color: #FF0000;
+}
+
+body { padding-top: 70px; }

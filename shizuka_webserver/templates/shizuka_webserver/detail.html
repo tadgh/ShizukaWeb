@@ -1,17 +1,74 @@
 {% extends "shizuka_webserver/base.html" %}
+{% load staticfiles %}
 {% block content %}
-<h1> {{ client.identifier }}</h1>
+<h1 class="text-center"> {{ client.identifier }}</h1>
+<div class="row">
+    <div class="col-md-3">
+        <h2 class="text-center">
+            Monitors
+            <a class="btn btn-primary" href={% url "client:configure" client.id %} role="button">
+              <span class="glyphicon glyphicon-edit"></span>
+                Edit
+            </a>
+        </h2>
 
-{% if error_message %}<p><strong>{{ error_message }}</strong></p> {% endif %}
-<ul>
-{% for monitor_inst in client.monitoringinstance_set.all %}
-    <li><a href ={% url 'client:resource' client.pk monitor_inst.pk %}>{{ monitor_inst.monitor.name }}</a></li>
-{% empty %}
-    <p>No monitors appear to be configured for this client. </p>
-    <a href={% url 'client:configure' client.id %}>Configure {{ client.identifier }}</a>
-{% endfor %}
-</ul>
+        {% if error_message %}<p><strong>{{ error_message }}</strong></p> {% endif %}
+        <ul>
+        {% for monitor_inst in client.monitoringinstance_set.all %}
+            <li><a href ={% url 'client:resource' client.pk monitor_inst.pk %}>{{ monitor_inst.monitor.name }}</a></li>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar"
+                     aria-valuenow={{ monitor_inst.report_set.all.0.value|default:"0" }}
+                         aria-valuemin={{ monitor_inst.minimum|default:"0" }}
+                         aria-valuemax={{ monitor_inst.maximum|default:"100" }}>
+                    </div>
+                </div>
+        {% empty %}
+            <p>No monitors appear to be configured for this client. </p>
+            <a href={% url 'client:configure' client.id %}>Configure {{ client.identifier }}</a>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2 class="text-center">Commands</h2>
+    </div>
+    <div class="col-md-6">
+            <h2 class="text-center">
+                Alerts
+                <a class="btn btn-success" href={% url "client:create_alert" client.id %} role="button">
+                    <span class="glyphicon glyphicon-plus"></span>
+                </a>
+            </h2>
+            <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Monitor</th>
+                    <th>Threshold</th>
+                    <th>Notify</th>
+                </tr>
+            </thead>
+            {% for monitoring_instance in client.monitoringinstance_set.all %}
+                {% for alert in monitoring_instance.alert_set.all %}
+                    <tr>
+                    <td>{{ alert.monitoring_instance.monitor.name }}</td>
+                    <td>{{ alert.threshold }}%</td>
+                    <td>{% for rcpt in alert.recipients.all %} {{ rcpt }}<br> {% endfor %} </td>
+                    <td>
+                        <a class="btn btn-danger" href={% url "client:delete_alert" client.id alert.id %} role="button">
+                             <span class="glyphicon glyphicon-remove"></span>
+                        </a>
+                    </td>
+                    </tr>
+                {% endfor %}
+            {% endfor %}
+            </table>
+
+    </div>
+</div>
 
 
-</form>
+
 {% endblock %}
+{% block scripts %}
+<script src={% static 'shizuka_webserver/monitor_animator.js' %}></script>
+{% endblock scripts %}

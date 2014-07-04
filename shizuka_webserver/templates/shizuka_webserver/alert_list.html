@@ -1,0 +1,16 @@
+{% extends 'shizuka_webserver/base.html' %}
+{% block content %}
+    {% for alert in alert_list %}
+        <p>If {{  alert.monitoring_instance.monitor}} exceeds {{ alert.threshold }}% on
+            <a href={% url 'client:detail' alert.monitoring_instance.client.id %}>{{ alert.monitoring_instance.client.identifier }}</a>, notify
+        {% for rcpt in alert.recipients.all %}
+            {{ rcpt.email }}
+        {% endfor %}
+        </p>
+    {% empty %}
+        <div class="jumbotron">
+            <h1>Uh Oh...</h1>
+            <p>It appears as though there are no alerts set up. Why not <a href={% url 'client:index' %}>add some</a>?</p>
+        </div>
+    {% endfor %}
+{% endblock content %}

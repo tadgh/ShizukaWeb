@@ -20,7 +20,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '*@31j$zw##w62^o0=gr@q#(ay)mtmjj)=%5myn--)3c&-7%&dg'
 
-
+#Crispy Template Default
+CRISPY_TEMPLATE_PACK = "bootstrap3"
 
 # Celery Settings
 BROKER_URL = broker='amqp://guest@localhost//'
@@ -66,6 +67,7 @@ DEFAULT_APPS = (
 
 THIRD_PARTY_APPS = (
     'south',
+    'crispy_forms',
 )
 
 LOCAL_APPS = (

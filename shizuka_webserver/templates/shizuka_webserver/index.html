@@ -15,7 +15,15 @@
     </table>
     <!--</ul>-->
     {% else %}
-        <p>No clients have checked in recently.</p>
+        <div class="jumbotron">
+        <h1>Welcome To Shizuka!</h1>
+        <p>It appears as though there are no clients running at the moment. Setup some clients and check back later.</p>
+        <p><a href={% url 'client:index' %}>
+            <button class="btn btn-primary btn-lg">
+                <span class="glyphicon glyphicon-cloud-download"></span> Windows Client</button>
+           </a>
+        </p>
+        </div>
     {% endif %}
 
 {% endblock %}

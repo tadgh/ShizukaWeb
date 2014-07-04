@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/MonitorManager.py" line="87" />
-    <bookmark url="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/MessageHandler.py" line="23" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="72db8951-93af-44a6-a84a-fb7727304ffa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/GitHub/Shizuka/src/client/Client.py" afterPath="$USER_HOME$/Documents/GitHub/Shizuka/src/client/Client.py" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/GitHub/Shizuka/src/client/DataManager.py" afterPath="$USER_HOME$/Documents/GitHub/Shizuka/src/client/DataManager.py" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/GitHub/Shizuka/src/client/MessageHandler.py" afterPath="$USER_HOME$/Documents/GitHub/Shizuka/src/client/MessageHandler.py" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/GitHub/Shizuka/src/client/MonitorManager.py" afterPath="$USER_HOME$/Documents/GitHub/Shizuka/src/client/MonitorManager.py" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/GitHub/Shizuka/src/client/Notifier.py" afterPath="$USER_HOME$/Documents/GitHub/Shizuka/src/client/Notifier.py" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/GitHub/Shizuka/src/server/Server.py" afterPath="$USER_HOME$/Documents/GitHub/Shizuka/src/server/Server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Shizuka/src/client/Notifier.py" afterPath="$PROJECT_DIR$/../Shizuka/src/client/Notifier.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Shizuka/src/client/Utils.py" afterPath="$PROJECT_DIR$/../Shizuka/src/client/Utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Shizuka/src/test_client/test_notifier.py" afterPath="$PROJECT_DIR$/../Shizuka/src/test_client/test_notifier.py" />
     </list>
     <ignored path="ShizukaWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,32 +16,33 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_CPUPercentMonitor.coverage" NAME="Unittests in test_CPUPercentMonitor Coverage Results" MODIFIED="1401490659159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittest_TestServer_test_execute_command_sends_to_client_on_success.coverage" NAME="Unittest TestServer.test_execute_command_sends_to_client_on_success Coverage Results" MODIFIED="1403034054569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_server" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$CPUPercentMonitor.coverage" NAME="CPUPercentMonitor Coverage Results" MODIFIED="1401490843187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Client.coverage" NAME="Client Coverage Results" MODIFIED="1403311320283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$MonitorManager.coverage" NAME="MonitorManager Coverage Results" MODIFIED="1402617009337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_MessageHandler.coverage" NAME="Unittests in test_MessageHandler Coverage Results" MODIFIED="1402970111489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_server.coverage" NAME="Unittests in test_server Coverage Results" MODIFIED="1402243106380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_server" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$db_populator.coverage" NAME="db_populator Coverage Results" MODIFIED="1401841536535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shizuka_webserver" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_StorageByteMonitor.coverage" NAME="Unittests in test_StorageByteMonitor Coverage Results" MODIFIED="1401978199887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_Client.coverage" NAME="Unittests in test_Client Coverage Results" MODIFIED="1402438150368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_client.coverage" NAME="Unittests in client Coverage Results" MODIFIED="1402250818138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_BytesSentMonitor.coverage" NAME="Unittests in test_BytesSentMonitor Coverage Results" MODIFIED="1402261101378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_connectivity.coverage" NAME="Unittests in test_connectivity Coverage Results" MODIFIED="1402266417378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_connectivity" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_notifier.coverage" NAME="Unittests in test_notifier Coverage Results" MODIFIED="1402250128586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$MessageHandler.coverage" NAME="MessageHandler Coverage Results" MODIFIED="1402266504204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_server.coverage" NAME="Unittests in server Coverage Results" MODIFIED="1402243085922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/server" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_BytesReceivedMonitor.coverage" NAME="Unittests in test_BytesReceivedMonitor Coverage Results" MODIFIED="1402261091618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_server.coverage" NAME="Unittests in server Coverage Results" MODIFIED="1402243085922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/server" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_MonitorManager.coverage" NAME="Unittests in test_MonitorManager Coverage Results" MODIFIED="1402617019402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_client" />
     <SUITE FILE_PATH="coverage/ShizukaWeb$Test__shizuka_webserver_tests.coverage" NAME="Test: shizuka_webserver.tests Coverage Results" MODIFIED="1402798000405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_Server.coverage" NAME="Unittests in test_Server Coverage Results" MODIFIED="1403033824299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_server" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_CommandInterface.coverage" NAME="Unittests in test_CommandInterface Coverage Results" MODIFIED="1401489894163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_MonitorManager.coverage" NAME="Unittests in test_MonitorManager Coverage Results" MODIFIED="1402617019402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_DataManager.coverage" NAME="Unittests in test_DataManager Coverage Results" MODIFIED="1401980286065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$CommandInterface.coverage" NAME="CommandInterface Coverage Results" MODIFIED="1403033821236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Server.coverage" NAME="Server Coverage Results" MODIFIED="1403311316029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/server" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_client.coverage" NAME="Unittests in test_client Coverage Results" MODIFIED="1402969463196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client" />
-    <SUITE FILE_PATH="coverage/ShizukaWeb$Notifier.coverage" NAME="Notifier Coverage Results" MODIFIED="1402250968188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/GitHub/Shizuka/src/client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_server.coverage" NAME="Unittests in test_server Coverage Results" MODIFIED="1402243106380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_server" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittest_TestServer_test_execute_command_sends_to_client_on_success.coverage" NAME="Unittest TestServer.test_execute_command_sends_to_client_on_success Coverage Results" MODIFIED="1403034054569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_server" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_MessageHandler.coverage" NAME="Unittests in test_MessageHandler Coverage Results" MODIFIED="1402970111489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$CPUPercentMonitor.coverage" NAME="CPUPercentMonitor Coverage Results" MODIFIED="1401490843187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Notifier.coverage" NAME="Notifier Coverage Results" MODIFIED="1402250968188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$db_populator.coverage" NAME="db_populator Coverage Results" MODIFIED="1401841536535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shizuka_webserver" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_notifier.coverage" NAME="Unittests in test_notifier Coverage Results" MODIFIED="1402250128586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$CommandInterface.coverage" NAME="CommandInterface Coverage Results" MODIFIED="1403033821236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_Client.coverage" NAME="Unittests in test_Client Coverage Results" MODIFIED="1402438150368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_client.coverage" NAME="Unittests in client Coverage Results" MODIFIED="1402250818138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Client.coverage" NAME="Client Coverage Results" MODIFIED="1403812649845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_client.coverage" NAME="Unittests in test_client Coverage Results" MODIFIED="1404104716895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$MonitorManager.coverage" NAME="MonitorManager Coverage Results" MODIFIED="1402617009337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_CommandInterface.coverage" NAME="Unittests in test_CommandInterface Coverage Results" MODIFIED="1401489894163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Server.coverage" NAME="Server Coverage Results" MODIFIED="1403812643140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/server" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_DataManager.coverage" NAME="Unittests in test_DataManager Coverage Results" MODIFIED="1401980286065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_BytesReceivedMonitor.coverage" NAME="Unittests in test_BytesReceivedMonitor Coverage Results" MODIFIED="1402261091618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_StorageByteMonitor.coverage" NAME="Unittests in test_StorageByteMonitor Coverage Results" MODIFIED="1401978199887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$MessageHandler.coverage" NAME="MessageHandler Coverage Results" MODIFIED="1402266504204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_connectivity.coverage" NAME="Unittests in test_connectivity Coverage Results" MODIFIED="1402266417378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_connectivity" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_BytesSentMonitor.coverage" NAME="Unittests in test_BytesSentMonitor Coverage Results" MODIFIED="1402261101378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_CPUPercentMonitor.coverage" NAME="Unittests in test_CPUPercentMonitor Coverage Results" MODIFIED="1401490659159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_client" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Run_Server.coverage" NAME="Run Server Coverage Results" MODIFIED="1404244506049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ShizukaWeb$Unittests_in_test_Server.coverage" NAME="Unittests in test_Server Coverage Results" MODIFIED="1403033824299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Shizuka/src/test_server" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -66,31 +60,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataManager.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/DataManager.py">
+      <file leaf-file-name="detail.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.28893906" vertical-offset="742" max-vertical-offset="1185">
+              <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server_poller.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShizukaWeb/server_poller.py">
+      <file leaf-file-name="create_alert.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/create_alert.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shizuka_webserver/static/shizuka_webserver/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="150">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -99,18 +83,50 @@
       <file leaf-file-name="configure.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/configure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="570">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shizuka_webserver/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="871">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="105" max-vertical-offset="630">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shizuka_webserver/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.153846" vertical-offset="1203" max-vertical-offset="2310">
+              <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_alert.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/delete_alert.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -119,39 +135,12 @@
       <file leaf-file-name="resource_report.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/resource_report.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Server.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/server/Server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1401901968000" expanded="true" signature="109:271" placeholder="..." />
+                <marker date="1401901968000" expanded="true" signature="176:248" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,8 +148,18 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shizuka_webserver/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1500">
+              <caret line="86" column="117" selection-start-line="86" selection-start-column="117" selection-end-line="86" selection-end-column="117" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notifier.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/Notifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1905">
+              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -174,70 +173,69 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Documents/GitHub/Shizuka" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Shizuka" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_StorageByteMonitor.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_DataManager.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/__init__.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_MonitorManager.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/server/__init__.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_notifier.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_BytesReceivedMonitor.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_connectivity/test_connectivity.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/test_connectivity/test_connectivity.py" />
         <option value="$PROJECT_DIR$/ShizukaWeb/__init__.py" />
         <option value="$PROJECT_DIR$/ShizukaWeb/celery.py" />
         <option value="$PROJECT_DIR$/celerybeat.pid" />
         <option value="$PROJECT_DIR$/shizuka_webserver/tests.py" />
         <option value="$PROJECT_DIR$/ShizukaWeb/celeryworker.bat" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/common/Constants.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_Client.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_MessageHandler.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_server/test_Server.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/common/PyroNS.bat" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/Utils.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/common/Constants.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/test_client/test_Client.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/test_client/test_MessageHandler.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/test_server/test_Server.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/common/PyroNS.bat" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/Utils.py" />
         <option value="$PROJECT_DIR$/ShizukaWeb/celeryworker" />
         <option value="$PROJECT_DIR$/ShizukaWeb/celerybeat.bat" />
         <option value="$PROJECT_DIR$/shizuka_webserver/admin.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/HandleMonitorConfigCommand.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/BytesSentMonitor.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/BytesReceivedMonitor.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/CommandInterface.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/CPUPercentMonitor.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/Monitor.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/NetworkInfoCommand.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/RamByteMonitor.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/RestartCommand.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/ShutdownCommand.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/StorageByteMonitor.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/SwapByteMonitor.py" />
-        <option value="$PROJECT_DIR$/shizuka_webserver/urls.py" />
-        <option value="$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/configure.html" />
-        <option value="$PROJECT_DIR$/ShizukaWeb/settings.py" />
-        <option value="$PROJECT_DIR$/shizuka_webserver/views.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/HandleMonitorConfigCommand.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/BytesSentMonitor.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/BytesReceivedMonitor.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/CommandInterface.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/CPUPercentMonitor.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/Monitor.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/NetworkInfoCommand.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/RamByteMonitor.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/RestartCommand.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/ShutdownCommand.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/StorageByteMonitor.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/SwapByteMonitor.py" />
         <option value="$PROJECT_DIR$/ShizukaWeb/server_poller.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/Notifier.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/MessageHandler.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/server/Server.py" />
-        <option value="$PROJECT_DIR$/shizuka_webserver/tasks.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/MonitorManager.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/Client.py" />
-        <option value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/DataManager.py" />
-        <option value="$PROJECT_DIR$/shizuka_webserver/models.py" />
-        <option value="$PROJECT_DIR$/shizuka_webserver/static/shizuka_webserver/style.css" />
-        <option value="$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/detail.html" />
-        <option value="$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/base.html" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/MessageHandler.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/server/Server.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/MonitorManager.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/Client.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/DataManager.py" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/configure.html" />
         <option value="$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/index.html" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/static/shizuka_webserver/navbar_helper.js" />
+        <option value="$PROJECT_DIR$/ShizukaWeb/settings.py" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/static/shizuka_webserver/style.css" />
+        <option value="$PROJECT_DIR$/ShizukaWeb/urls.py" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/alert_list.html" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/base.html" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/static/shizuka_webserver/monitor_animator.js" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/client/Notifier.py" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/tasks.py" />
+        <option value="$PROJECT_DIR$/../Shizuka/src/test_client/test_notifier.py" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/create_alert.html" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/urls.py" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/delete_alert.html" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/models.py" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/views.py" />
+        <option value="$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/detail.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -309,14 +307,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShizukaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShizukaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shizuka_webserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShizukaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShizukaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shizuka_webserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shizuka_webserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShizukaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShizukaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shizuka_webserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shizuka_webserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShizukaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShizukaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShizukaWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/Shizuka" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Shizuka" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -341,51 +411,7 @@
       <recent name="D:\Dropbox\GitHub\ShizukaWeb\templates\admin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Client">
-    <configuration default="false" name="CommandInterface" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/Shizuka/src/client" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Shizuka" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/CommandInterface.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestServer.test_execute_command_sends_to_client_on_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_server" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Shizuka" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_server/test_Server.py" />
-      <option name="CLASS_NAME" value="TestServer" />
-      <option name="METHOD_NAME" value="test_execute_command_sends_to_client_on_success" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Run Server">
     <configuration default="false" name="Server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -393,34 +419,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/Shizuka/src/server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Shizuka/src/server" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Shizuka" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/GitHub/Shizuka/src/server/Server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Shizuka/src/server/Server.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in test_Server" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Shizuka/src/client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Shizuka" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/GitHub/Shizuka/src/test_server/test_Server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Shizuka/src/client/Client.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_client" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Shizuka/src/test_client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Shizuka" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/../Shizuka/src/test_client" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -586,9 +631,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/ShizukaEnvironment/Scripts/python3.3.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ShizukaWeb" />
@@ -599,39 +644,17 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Client" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/Shizuka/src/client" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Shizuka" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/GitHub/Shizuka/src/client/Client.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <list size="6">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.Run Server" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Client" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CommandInterface" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestServer.test_execute_command_sends_to_client_on_success" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Server" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in test_Server" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Server" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Client" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_client" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.Server" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestServer.test_execute_command_sends_to_client_on_success" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_Server" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CommandInterface" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_client" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Client" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -681,29 +704,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33441558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33887467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33375958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21641791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23676682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34848484" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33810142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="198" y="537" width="1920" height="334" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3375959" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3375959" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="198" y="537" width="1920" height="334" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -751,78 +774,21 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shizuka_webserver/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShizukaWeb/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/test_client/test_CommandInterface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shizuka_webserver/db_populator.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/test_server/test_Server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/server/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_BytesReceivedMonitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_MessageHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_CommandInterface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_Client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/test_server/test_Server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/Utils.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/Utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -836,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShizukaWeb/celerybeat.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shizuka_webserver/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -850,119 +809,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/Command.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/Command.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/CommandInterface.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/CommandInterface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/Monitor.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/Monitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/CPUPercentMonitor.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/NetworkInfoCommand.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/NetworkInfoCommand.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/RestartCommand.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/RestartCommand.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/SwapByteMonitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/SwapByteMonitor.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/ShutdownCommand.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/ShutdownCommand.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/test_client/test_MonitorManager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shizuka_webserver/urls.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/BytesReceivedMonitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShizukaWeb/urls.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/BytesSentMonitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/test_client/test_MonitorManager.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/RamByteMonitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/BytesReceivedMonitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/BytesSentMonitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/RamByteMonitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/ClientErrors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShizukaWeb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shizuka_webserver/views.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/ClientErrors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -983,69 +907,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShizukaWeb/celeryworker.bat">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/StorageByteMonitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/StorageByteMonitor.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/common/Constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/common/Constants.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/Client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/Notifier.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/MonitorManager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/MessageHandler.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/DataManager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shizuka_webserver/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/Client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/MonitorManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/client/DataManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,11 +946,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Shizuka/src/server/Server.py">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/server/Server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1065,58 +957,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shizuka_webserver/models.py">
+    <entry file="file://$PROJECT_DIR$/ShizukaWeb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="484" max-vertical-offset="1950">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shizuka_webserver/static/shizuka_webserver/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShizukaWeb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="467">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShizukaWeb/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="467">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/alert_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/resource_report.html">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/wsgiref/simple_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="2400">
+          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="832" max-vertical-offset="1275">
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/static/shizuka_webserver/navbar_helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/static/shizuka_webserver/monitor_animator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShizukaWeb/celerybeat.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="135">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShizukaWeb/celeryworker.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="120">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1785">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/test_client/test_notifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="765">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/test_client/test_Client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/configure.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="570">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/detail.html">
+    <entry file="file://$PROJECT_DIR$/../Shizuka/src/client/Notifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1905">
+          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/base.html">
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/create_alert.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="150">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/resource_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1401901968000" expanded="true" signature="109:271" placeholder="..." />
+            <marker date="1401901968000" expanded="true" signature="176:248" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="630">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/delete_alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1500">
+          <caret line="86" column="117" selection-start-line="86" selection-start-column="117" selection-end-line="86" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.153846" vertical-offset="1203" max-vertical-offset="2310">
+          <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shizuka_webserver/templates/shizuka_webserver/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28893906" vertical-offset="742" max-vertical-offset="1185">
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
           <folding />
         </state>
       </provider>

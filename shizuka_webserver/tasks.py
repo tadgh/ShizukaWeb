@@ -16,8 +16,7 @@ def get_data():
         except Client.DoesNotExist:
             logging.error("No knowledge of Client: huh?! {}".format(client_identifier))
             return
-        client.most_recent_ping = timezone.now()
-        logging.info("Most Recent ping now set to: " + str(client.most_recent_ping))
+        client.most_recent_ping = report["timestamp"]
         client.save()
         for monitor_name, values in report["polled_data"].items():
             try:
@@ -25,7 +24,8 @@ def get_data():
                 monitoring_instance = MonitoringInstance.objects.get(client=client, monitor=monitor)
                 monitoring_instance.minimum = values[0]
                 monitoring_instance.maximum = values[2]
-                monitoring_instance.report_set.create(value=values[1])
+                monitoring_instance.report_set.create(value=values[1], timestamp=report["timestamp"])
+                monitoring_instance.save()
             except Monitor.DoesNotExist:
                 logging.error("Monitor: {} DOES NOT EXIST!".format(monitor_name))
             except MonitoringInstance.DoesNotExist:

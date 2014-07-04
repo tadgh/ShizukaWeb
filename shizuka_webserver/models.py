@@ -1,14 +1,14 @@
 import datetime
 from django.db import models
 from django.utils import timezone
+from django.core.validators import MaxValueValidator, MinValueValidator
+from django.contrib.auth.models import User
 # Create your models here.
 
 
 class Server(models.Model):
     host = models.CharField(max_length=100)
     ip = models.GenericIPAddressField()
-
-
 
 
 class Monitor(models.Model):
@@ -71,13 +71,26 @@ class MonitoringInstance(models.Model):
     maximum = models.FloatField(null=True)
 
     def __str__(self):
-        return self.monitor.name + "{ " + str(self.minimum) + " --> " + str(self.maximum) + " }"
+        return self.monitor.name
+
+
+class Alert(models.Model):
+    monitoring_instance = models.ForeignKey(MonitoringInstance)
+    #ensure the threshold is a percent.
+    threshold = models.IntegerField(validators=[
+        MaxValueValidator(100),
+        MinValueValidator(1)
+    ])
+    recipients = models.ManyToManyField(User)
+
+    def __str__(self):
+        return self.monitoring_instance.monitor.name + " on client: " + self.monitoring_instance.client.name + " (" + str(self.threshold) + "%)"
 
 
 class Report(models.Model):
     monitoringInstance = models.ForeignKey(MonitoringInstance)
     value = models.FloatField()
-    timestamp = models.DateTimeField(auto_now_add=True, blank=True)
+    timestamp = models.DateTimeField()
 
     def __str__(self):
         return str(self.value)

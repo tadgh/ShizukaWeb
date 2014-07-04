@@ -2,40 +2,17 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from django.utils import timezone
-from django.views.generic import TemplateView
-from shizuka_webserver.models import Client, MonitoringInstance, Monitor
+from django.views.generic import TemplateView, FormView
+from shizuka_webserver.models import Client, MonitoringInstance, Monitor, Alert
 from django.http import Http404
 from django.views import generic
-from django.forms import ModelForm
+from django.forms import ModelForm, CheckboxSelectMultiple
 from shizuka_webserver.tasks import configure_monitors_on_client
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import Submit
 
 
 #  Create your views here.
-#
-# def detail(request, client_id):
-#  #return HttpResponse("You're looking at client: %s" % client_id)
-#  try:
-#     client = Client.objects.get(pk=client_id)
-#     except Client.DoesNotExist:
-#         raise Http404
-#
-#     #This is a shortcut of all of the above! it combines the getting and the 404.
-#     #client = get_object_or404(Client, pk=client_id)
-#
-#     return render(request, 'shizuka_webserver/detail.html', {'client': client})
-#
-#
-def monitors(request, client_id):
-    return HttpResponse("You're looking at monitors for client: %s" % client_id)
-#
-#
-def alerts(request, client_id):
-    return HttpResponse("You're looking at alerts for client: %s" % client_id)
-#
-# def index(request):
-#     recent_client_list = Client.objects.order_by('most_recent_ping')[:5]
-#     context = {'recent_client_list':recent_client_list}
-#     return render(request,'shizuka_webserver/index.html', context)
 
 
 def execute(request, client_id):
@@ -81,6 +58,58 @@ class ClientForm(ModelForm):
         model = Client
         fields = ['monitors', ]
 
+    def __init__(self, *args, **kwargs):
+        super(ClientForm, self).__init__(*args, **kwargs)
+        self.fields['monitors'].widget = CheckboxSelectMultiple(choices=self.fields['monitors'].choices)
+
+
+class AlertForm(ModelForm):
+    def __init__(self, *args, **kwargs):
+        super(AlertForm, self).__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.form_id = "new_alert_form"
+        self.helper.form_class = "creation_form"
+        self.helper.form_method = "post"
+        self.helper.add_input(Submit("submit", 'Submit'))
+    class Meta:
+        model = Alert
+
+
+class CreateAlertView(FormView):
+    template_name = "shizuka_webserver/create_alert.html"
+    form_class = AlertForm
+
+    def get_success_url(self):
+        return reverse("client:detail", args=(self.kwargs["client_id"],))
+
+    def get_context_data(self, **kwargs):
+        context = super(CreateAlertView, self).get_context_data(**kwargs)
+        context["form"].fields["monitoring_instance"].queryset = MonitoringInstance.objects.filter(client=self.kwargs['client_id'])
+        return context
+
+    def form_valid(self, form):
+        form.save(commit=True)
+        return super(CreateAlertView, self).form_valid(form)
+
+
+
+class DeleteAlertView(generic.DeleteView):
+    model = Alert
+    template_name = "shizuka_webserver/delete_alert.html"
+
+    def get_success_url(self):
+        if "client_id" in self.kwargs.keys():
+            return reverse("client:detail", args=(self.kwargs["client_id"],))
+        else:
+            return reverse("client:alert_list")
+
+class ListAlertView(generic.ListView):
+    model = Alert
+    template_name = 'shizuka_webserver/alert_list.html'
+    context_object_name = "alert_list"
+
+
+
 
 class IndexView(generic.ListView):
     template_name = 'shizuka_webserver/index.html'
@@ -90,10 +119,10 @@ class IndexView(generic.ListView):
         """return the last five clients to report in."""
         return Client.objects.filter(
             most_recent_ping__lte=timezone.now()
-        ).order_by("most_recent_ping")
+        ).order_by("-most_recent_ping")
 
 
-class DetailView(generic.DetailView):
+class ClientDetailView(generic.DetailView):
     model = Client
     template_name = 'shizuka_webserver/detail.html'
     #determines the name of the object that is passed to the template. By default it is "client" as we are using the
@@ -109,8 +138,6 @@ class ResourceDetailView(generic.DetailView):
     model = MonitoringInstance
     template_name = 'shizuka_webserver/resource_report.html'
     context_object_name = 'monitoringinstance'
-
-
 
 
 class ResultsView(generic.DetailView):

@@ -74,6 +74,14 @@ class MonitoringInstance(models.Model):
         return self.monitor.name
 
 
+class Command(models.Model):
+    tag = models.CharField(max_length=100)
+    glyph_name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.tag
+
+
 class Alert(models.Model):
     monitoring_instance = models.ForeignKey(MonitoringInstance)
     #ensure the threshold is a percent.

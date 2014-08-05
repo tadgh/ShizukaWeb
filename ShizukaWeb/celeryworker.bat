@@ -1,3 +1,3 @@
-call C:\Users\Master\ShizukaEnvironment/Scripts/activate.bat
-cd D:\dropbox\github\Shizukaweb
+call C:\Users\Master\ShizukaEnvironment\Scripts\activate.bat
+cd C:\Users\Master\Documents\GitHub\ShizukaWeb
 celery -A ShizukaWeb worker --loglevel=info

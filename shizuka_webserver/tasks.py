@@ -2,7 +2,7 @@ from __future__ import absolute_import
 import logging
 from ShizukaWeb.server_poller import ServerPoller
 from ShizukaWeb.celery import app as celery_app
-from shizuka_webserver.models import Client, Monitor, MonitoringInstance, MountPoint
+from shizuka_webserver.models import Client, Monitor, MonitoringInstance, MountPoint, Command
 from django.utils import timezone
 
 
@@ -62,6 +62,7 @@ def process_discovery(message):
         "platform": message["PLATFORM"],
         "most_recent_ping": timezone.now()
     }
+    #
     client, created = Client.objects.get_or_create(identifier=message["CLIENT_ID"], defaults=defaults_dict)
     if created:
         client.ip = message["IP"]
@@ -77,6 +78,15 @@ def process_discovery(message):
         client.mount_points.add(*mp_list)# the * is to unpack the list, as list is not accepted.
     except MountPoint.MultipleObjectsReturned:
         logging.error("Found a duplicate mountpoint in the table. Please investigate: {}")
+    except KeyError:
+        logging.error("Couldn't find Key: MOUNT_POINTS in the message dict.")
+
+    try:
+        command_list = [Command.objects.get_or_create(tag=command_tag) for command_tag in message["COMMANDS"]]
+    except MountPoint.MultipleObjectsReturned:
+        logging.error("Found a duplicate Command in the table. Please investigate: {}")
+    except KeyError:
+        logging.error("Couldn't find Key: COMMANDS in the message dict.")
 
 
 def process_monitor_report(client_name, message):
